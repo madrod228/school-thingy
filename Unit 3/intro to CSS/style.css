@@ -1,0 +1,35 @@
+h1 {
+    color: aqua;
+    background-color: goldenrod;
+}
+
+p {
+    background-color: magenta;
+    color:brown ;
+}
+
+.toucan {
+color: greenyellow;
+}
+
+.parrot {
+    background-color: aqua;
+    color: red;
+}
+
+.D {
+    background: linear-gradient(83deg, blue,orange)
+}
+
+.lol {
+    background: linear-gradient(270deg, gray, brown);
+    border-radius: 50px;
+}
+
+.big {
+    background: linear-gradient(120deg,red,green, white);
+}
+
+body {
+    background-color: greenyellow;
+}
