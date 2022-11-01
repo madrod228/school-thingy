@@ -3,7 +3,8 @@ p {
     border:0x solid black ;
     background-color:red ;
     color: white;
-    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    width: fit-content;
 }
 
 
@@ -11,12 +12,15 @@ p {
 
 .odd {
     background-color:#eef7ff ;
-
-}
-.tableb {
-    border: 1 solid #c4dcf3;
+    
 }
 .header {
     background-color: #427fef;
-    font: white;
+    color: white;
+}
+
+table,th,td{
+    border-collapse:collapse;
+    border-bottom:  solid #c4dcf3;
+    padding: 10px;
 }
