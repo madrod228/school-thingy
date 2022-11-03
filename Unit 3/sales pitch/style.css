@@ -1,0 +1,33 @@
+img {
+    width: 300px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+}
+
+p {
+    font-family:"Comic Sans MS" ;
+    text-align: center;
+}
+
+.list {
+    font-family:"Comic Sans MS" ;
+
+}
+
+ body {
+    background: lime;
+    color: red;
+ }
+
+ ul {
+    font-family: "Comic Sans MS"; 
+ }

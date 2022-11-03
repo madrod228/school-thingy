@@ -1,0 +1,21 @@
+.red-box {
+    background-color: tomato;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    /* the left property sets amount of space to the left which means it will move something to the right*/
+    left: 300px;
+    bottom: 150px;
+}
+
+.blue-box {
+    background-color: dodgerblue;
+    height: 150px;
+    width: 150px;
+}
+
+.yellow-box {
+    background-color: gold;
+    height: 150px;
+    width: 150px;
+}
