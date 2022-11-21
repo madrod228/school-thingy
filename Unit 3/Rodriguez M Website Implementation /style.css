@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    background-color: #DB4439;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.barbuttons {
+    color: #F1E7DA;
+    text-align: center;
+}
+
+.shopb1 {
+    position: relative;
+    color:#DB4439;
+    background-color:#F1E7DA ;
+    width:150px ;
+    height: 50px;
+    align-items: center;
+    box-shadow: -10px 3px black; 
+    border-radius: 40px;
+
+
+}
+
+.logo1 {
+    width: 100px;
+}
