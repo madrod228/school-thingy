@@ -9,33 +9,45 @@ a {
 
 body {
     margin: 0;
+    font-family: 'Anton', sans-serif;
 }
 
 .bar {
     background-color: #DB4439;
     display: flex;
+    position: relative;
+    height:100px ;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
-.barbuttons {
+.bar-buttons {
     color: #F1E7DA;
-    text-align: center;
+
 }
 
 .shopb1 {
-    position: relative;
     color:#DB4439;
     background-color:#F1E7DA ;
+    position: absolute;
+    right: 5px;
+}
+.button {
     width:150px ;
     height: 50px;
-    align-items: center;
-    box-shadow: -10px 3px black; 
+    box-shadow: -7px 3px #76251E; 
     border-radius: 40px;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo1 {
     width: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.bar-buttons a {
+    color: #F1E7DA;
 }
