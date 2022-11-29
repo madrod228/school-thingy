@@ -1,0 +1,56 @@
+.box {
+    height: 50px;
+    width: 150px;
+    background-color: tomato;
+    
+}
+
+.nav-bar {
+    border:1px solid black;
+    display: flex; 
+    justify-content:space-between ;
+}
+
+body {
+    margin: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box:first-child {
+    background-color: dodgerblue;
+}
+
+.box:last-child {
+    background-color: gold;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;
+    background-color: purple;
+}

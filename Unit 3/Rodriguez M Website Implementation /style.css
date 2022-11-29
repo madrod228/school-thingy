@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
-    
 }
-
 a {
     text-decoration: none;
 }
@@ -10,28 +8,11 @@ a {
 body {
     margin: 0;
     font-family: 'Anton', sans-serif;
-}
-
-.bar {
-    background-color: #DB4439;
+    height: 200vh;
     display: flex;
-    position: relative;
-    height:100px ;
-    align-items: center;
-    justify-content: center;
 }
 
-.bar-buttons {
-    color: #F1E7DA;
 
-}
-
-.shopb1 {
-    color:#DB4439;
-    background-color:#F1E7DA ;
-    position: absolute;
-    right: 5px;
-}
 .button {
     width:150px ;
     height: 50px;
@@ -41,13 +22,50 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Below is nav bar and a little bit more */
+.bar {
+    background-color: #DB4439;
+    display: flex;
+    position: relative;
+    height:100px ;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+}
+
+.bar-buttons {
+    color: #F1E7DA;
+    display: flex;
+    gap: 20px;
+}
+
+.shopb1 {
+    color:#DB4439;
+    background-color:#F1E7DA ;
+    position: absolute;
+    right: 35px;
+}
 
 .logo1 {
     width: 100px;
     position: absolute;
-    left: 0;
+    left: 10px;
 }
 
 .bar-buttons a {
     color: #F1E7DA;
 }
+
+/* Below is Section/image 1  section thats not nav bar */
+
+.love-sauce {
+    background-color:  #DB4439;
+    height:700px ;
+    border: 1px solid black;
+    width: 100vw;
+    position: relative;
+    top: 100px;
+}
+
