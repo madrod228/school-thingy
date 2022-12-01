@@ -1,0 +1,14 @@
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: purple;
+    transition: ease-in-out 300ms;
+}
+
+.box:active {
+    background-color: orange;
+    transform: rotate(90deg);
+    position: absolute;
+    transform: translate ;
+    left: 400px;
+}

@@ -35,10 +35,22 @@ body {
     width: 100vw;
 }
 
+
+.logo1 {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+}
+
 .bar-buttons {
     color: #F1E7DA;
     display: flex;
     gap: 20px;
+}
+
+.bar-buttons a {
+    color: #F1E7DA;
+    letter-spacing: 2px;
 }
 
 .shopb1 {
@@ -47,18 +59,11 @@ body {
     position: absolute;
     right: 35px;
 }
-
-.logo1 {
-    width: 100px;
-    position: absolute;
-    left: 10px;
-}
-
-.bar-buttons a {
-    color: #F1E7DA;
-}
-
 /* Below is Section/image 1  section thats not nav bar */
+
+.no-margin {
+    margin:  0;
+}
 
 .love-sauce {
     background-color:  #DB4439;
@@ -67,5 +72,36 @@ body {
     width: 100vw;
     position: relative;
     top: 100px;
+    color: #F1E7DA;
+    letter-spacing: 5px;
+    display: flex;
 }
 
+.kansas {
+    display: flex ;
+    flex-direction: column;
+    font-size: 115px;
+}
+
+.something {
+    font-size: 25px;
+}
+.restaurant {
+    font-family: 'Anton', sans-serif;
+}
+
+.love-left {
+    width: 50vw;
+}
+
+.love-right {
+  position: relative;
+  width: 50vw;
+}
+
+.sauce-right {
+    width: 400px;
+    position: absolute;
+    right: 25px;
+    border: black 5px solid;
+}
