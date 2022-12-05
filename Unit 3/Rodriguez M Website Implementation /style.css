@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 a {
     text-decoration: none;
@@ -63,6 +64,7 @@ body {
 
 .no-margin {
     margin:  0;
+    line-height: 0.95;
 }
 
 .love-sauce {
@@ -83,6 +85,10 @@ body {
     font-size: 115px;
 }
 
+.kansas-container {
+    width: 45vw;
+}
+
 .something {
     font-size: 25px;
 }
@@ -92,16 +98,39 @@ body {
 
 .love-left {
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
 }
 
 .love-right {
   position: relative;
-  width: 50vw;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sauce-right {
-    width: 400px;
+    width: 570px;
     position: absolute;
-    right: 25px;
-    border: black 5px solid;
+}
+
+/* Section 3 Code Below */
+
+.section-3{
+    display: flex;
+    justify-content: center;
+}
+
+.sweet {
+    width:700px;
+    display: flex;
+    justify-content: center;
+}
+
+.magic-bbq {
+    background-color: ;
 }
