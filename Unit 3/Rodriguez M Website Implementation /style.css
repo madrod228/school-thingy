@@ -11,6 +11,7 @@ body {
     font-family: 'Anton', sans-serif;
     height: 200vh;
     display: flex;
+    background-color: #F1E7DA;
 }
 
 
@@ -70,7 +71,7 @@ body {
 .love-sauce {
     background-color:  #DB4439;
     height:700px ;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100vw;
     position: relative;
     top: 100px;
@@ -123,6 +124,8 @@ body {
 .section-3{
     display: flex;
     justify-content: center;
+    position: relative ;
+    top: 100px;
 }
 
 .sweet {
@@ -132,5 +135,52 @@ body {
 }
 
 .magic-bbq {
-    background-color: ;
+    background-color:#F1E7DA ;
+    width: 700px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
 }
+
+.magic-text {
+    bottom: 0;
+    color: black;
+    font-size: 100px;
+    color: #DB4439;
+}
+
+.jones-family {
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+/* section 4 Code Below */
+.section-4 {
+    background-color: #ffff;
+    width: 100vw;
+    position:relative ;
+    top: 84px;
+}
+
+.section-4 p {
+    display: flex;
+    justify-content: center;
+    color: #DB4439;
+}
+
+.featured-images {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.featured-images img {
+    height: 50px;
+
+}
+
+/* Section 5 woooh!!!!!!!9I have dementia) */
+
