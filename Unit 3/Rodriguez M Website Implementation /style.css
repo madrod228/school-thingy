@@ -14,7 +14,6 @@ body {
     background-color: #F1E7DA;
 }
 
-
 .button {
     width:150px ;
     height: 50px;
@@ -68,7 +67,7 @@ body {
     line-height: 0.95;
 }
 
-.love-sauce {
+.section-2 {
     background-color:  #DB4439;
     height:700px ;
     /* border: 1px solid black; */
@@ -141,21 +140,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
     padding-left: 50px;
 }
 
 .magic-text {
-    bottom: 0;
+
     color: black;
     font-size: 100px;
     color: #DB4439;
+    margin-bottom: 40px;
 }
 
 .jones-family {
     font-size: 20px;
     padding-right: 50px;
 }
+
+.shopb2 {
+    color:#F1E7DA;
+    background-color:#DB4439 ;
+}
+
+
 
 /* section 4 Code Below */
 .section-4 {
@@ -179,8 +186,50 @@ body {
 }
 .featured-images img {
     height: 50px;
-
 }
 
 /* Section 5 woooh!!!!!!!9I have dementia) */
+.section-5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+}
+
+.s5-left-backround {
+    background-color: #DB4439;
+    width: 50vw;
+    height: 800px;
+}
+
+.s5-left {
+    padding: 50px;
+    color: #F1E7DA;
+}
+
+.L{
+    font-size: 100px;
+}
+
+.sec5-smalt {
+    font-size: 20px;
+    color: #F1E7DA;
+}
+
+.s5-right-backround {
+    background-color: #76251E;
+    width: 50vw;
+    height: 800px;
+}
+
+.mmmsteaks {
+    height: 800px;
+}
+
+.sec5b {
+    position: relative;
+    left: 0px;
+}
+
+/* SECTION 6 ALREADY THOMAS HAS DONE NOTHING WOOOOOH (sam is aleady don emultiple classes ago !!!!! */
 
