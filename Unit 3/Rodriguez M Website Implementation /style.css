@@ -1,3 +1,4 @@
+/* Hello mr devalle */
 * {
     box-sizing: border-box;
     /* border: 1px solid black; */
@@ -22,6 +23,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button:hover {
+    opacity: 80%;
 }
 /* Below is nav bar and a little bit more */
 .bar {
@@ -229,7 +234,74 @@ body {
 .sec5b {
     position: relative;
     left: 0px;
+    font-size: 15px;
 }
 
 /* SECTION 6 ALREADY THOMAS HAS DONE NOTHING WOOOOOH (sam is aleady don emultiple classes ago !!!!! */
+
+.attitude-line {
+    width: 100vw;
+    background-color: #F1E7DA;
+    height: 400px;
+    position: relative;
+    top: 90px;
+}
+
+.attitude-bigt p {
+    color: #DB4439;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.attitude-bigt h1 {
+    color: #DB4439;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* onto section 7 before thomas is done with section 1 I think */
+.section-7 {
+position: relative;
+top: 100px;
+display: flex;
+justify-content: center;
+position: relative ;
+}
+
+.sec7-left {
+    width: 50vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.jonessister1 {
+    width: 500px;
+}
+
+.jonessister2 {
+    width: 700px;
+}
+
+.sec7-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50vw;
+    align-items: right;
+}
+
+.sec7-right h4 {
+    width: 80%;
+}
+
+/* FINAL SECTION YIPEEEE(Gangnam style and what not) */
 
