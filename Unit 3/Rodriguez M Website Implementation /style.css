@@ -76,7 +76,7 @@ body {
     background-color:  #DB4439;
     height:700px ;
     /* border: 1px solid black; */
-    width: 100vw;
+
     position: relative;
     top: 100px;
     color: #F1E7DA;
@@ -130,12 +130,17 @@ body {
     justify-content: center;
     position: relative ;
     top: 100px;
+    background-color: #F1E7DA;
 }
 
 .sweet {
     width:700px;
     display: flex;
     justify-content: center;
+}
+
+.s3-backround {
+    background-color: #76251E;
 }
 
 .magic-bbq {
@@ -172,7 +177,6 @@ body {
 /* section 4 Code Below */
 .section-4 {
     background-color: #ffff;
-    width: 100vw;
     position:relative ;
     top: 84px;
 }
@@ -188,6 +192,7 @@ body {
     gap: 50px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .featured-images img {
     height: 50px;
@@ -240,7 +245,6 @@ body {
 /* SECTION 6 ALREADY THOMAS HAS DONE NOTHING WOOOOOH (sam is aleady don emultiple classes ago !!!!! */
 
 .attitude-line {
-    width: 100vw;
     background-color: #F1E7DA;
     height: 400px;
     position: relative;
@@ -273,6 +277,7 @@ top: 100px;
 display: flex;
 justify-content: center;
 position: relative ;
+
 }
 
 .sec7-left {
@@ -305,3 +310,30 @@ position: relative ;
 
 /* FINAL SECTION YIPEEEE(Gangnam style and what not) */
 
+.section-8 {
+    background-color: #76251E;
+    height: 250px;
+    position: relative;
+    top: 120px;
+    color: #F1E7DA;
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+
+.s8-logo {
+   height: 100px; 
+}
+
+.s8-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.s8-bigt {
+    font-size: 30px;
+}
