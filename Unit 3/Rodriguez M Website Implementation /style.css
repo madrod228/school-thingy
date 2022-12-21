@@ -277,7 +277,7 @@ top: 100px;
 display: flex;
 justify-content: center;
 position: relative ;
-
+width: 95%;
 }
 
 .sec7-left {
@@ -336,4 +336,5 @@ position: relative ;
 
 .s8-bigt {
     font-size: 30px;
+    
 }
