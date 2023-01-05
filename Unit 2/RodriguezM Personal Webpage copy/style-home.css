@@ -1,0 +1,15 @@
+.home-container {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-container h2 {display: flex; flex-direction:column ; align-items: center; justify-content: center;}
+
+.it-watches {
+    position: fixed;
+    top: 0;
+    color: rgb(1, 1, 1);
+    z-index: -1;
+}
