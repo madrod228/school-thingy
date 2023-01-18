@@ -20,7 +20,7 @@ body {
     transition: ease-in-out 100ms;
 }
 
-a {
+.nav-bar-option {
     font-size: 0;
     transition: ease-in-out 200ms;
 }
@@ -44,7 +44,7 @@ a {
     width: 100%;
 }
 
-.nav-detector:hover > a {
+.nav-detector:hover > .nav-bar-option {
     font-size: 40px;
     color: black;
 }
