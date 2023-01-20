@@ -1,13 +1,5 @@
-body {
-    background: linear-gradient(225deg, rgb(151, 219, 61), rgb(126, 60, 154), rgb(130, 54, 13), rgb(255, 0, 0));
-}
-
-li {
-    color: orange;
-}
-p {
-    color: olivedrab;
-}
-h1,h2 {
-    color: cornflowerblue;
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

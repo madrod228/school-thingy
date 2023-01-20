@@ -1,35 +1,6 @@
-body {
-    background-color: red;
-}
-
 .home-container {
     display: flex;
-    flex-direction:column ;
     align-items: center;
-    justify-content: center;
-    color: lime;
-}
-.home-container h2 {display: flex; flex-direction:column ; align-items: center; justify-content: center; color: aquamarine;}
+    flex-direction: column;
 
-.it-watches {
-    position: fixed;
-    top: 0;
-    color: red;
-    z-index: -1;
-    cursor: default;
-}
-
-.ad-2 {
-    width: 300px;
-
-}
-.ad-3 {
-    width:300px; 
-    background-color: white;
-    position: absolute;
-    left: 0px;
-}
-
-.it-watches::selection {
-    background-color: rgba(0,0,0,.5);
 }
